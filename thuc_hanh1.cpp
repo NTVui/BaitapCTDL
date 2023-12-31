@@ -1,13 +1,24 @@
 #include <iostream>
 using namespace std;
+void HelloWorld()
+{
+    string y;
+    cout <<y;
+}
 int main()
 {
-    //B
+    //Bài 1
     cout << "Hello World!" << endl;
-    int a = 5;
-    int b = 6;
-    int tong = a + b;
-    cout<<"Tong = "<<tong<<endl;
-
-    system("pause");
+    //Bài 2
+    string x ="Hello World";
+    cout<<x<<endl;
+    //Bài 3
+   string a = "Hello";
+    string b = "World!!!";
+    string tong = a + " " + b;
+    cout<<tong<<endl;
+    //Bài 4
+    HelloWorld();
+    return 0;
+    
 }
